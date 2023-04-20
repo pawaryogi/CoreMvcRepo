@@ -34,6 +34,11 @@ namespace CoreMvcDemoApp.Controllers
             return View();
         }
 
+        public IActionResult EmiCalculator()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             return View();
